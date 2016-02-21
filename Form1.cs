@@ -46,6 +46,8 @@ namespace Kalkulator
                 total = Convert.ToInt32(textBox1.Text) / Convert.ToInt32(textBox2.Text);
                 label1.Text = total.ToString();
             }
+
+
             label1.Text="Nelze delit nulou";
         }
     }
