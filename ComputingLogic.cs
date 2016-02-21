@@ -16,13 +16,15 @@ namespace Kalkulator
         }
         public static float minus(float num1, float num2)
         {
-            //TODO metoda na odcitani
-            return 0;
+            float total = 0;
+            total = num1 - num2;
+            return total;
         }
         public static float multiply(float num1, float num2)
         {
-            //TODO metoda na nasobeni
-            return 0;
+            float total = 0;
+            total = num1 * num2;
+            return total;
         }
     }
 }
