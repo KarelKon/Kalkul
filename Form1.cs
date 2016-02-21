@@ -41,14 +41,16 @@ namespace Kalkulator
         private void button4_Click(object sender, EventArgs e)
         {
             float total = 0;
-            if (Convert.ToInt32(textBox2.Text) !=0)
+            if (Convert.ToInt32(textBox2.Text) != 0)
             {
                 total = Convert.ToInt32(textBox1.Text) / Convert.ToInt32(textBox2.Text);
                 label1.Text = total.ToString();
             }
+            else
+            {
 
-
-            label1.Text="Nelze delit nulou";
+                label1.Text = "Nelze delit nulou";
+            }
         }
     }
 }
